@@ -1,0 +1,10 @@
+@import '../../assets/scss/variables';
+
+.header-container {
+  background-color: $navy-blue;
+  color: $light-blue;
+  // color: $white;
+  display: flex;
+  height: 120px;
+  width: 100%;
+}
