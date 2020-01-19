@@ -1,0 +1,20 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .header-container {
+      display: flex;
+
+      .header {
+        .first-section {
+          width: 70%;
+        }
+        .box-shadow-menu {
+          display: flex;
+
+          width: 20%;
+        }
+      }
+    }
+}
