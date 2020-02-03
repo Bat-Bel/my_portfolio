@@ -5,8 +5,7 @@
   box-shadow: 1px 10px 5px #ccc;
   color: $light-blue-grey;
   display: flex;
-  height: 122px;
-  width: 100%;
+  padding: 10px;
 
   .header {
     display: flex;
@@ -55,8 +54,20 @@
         padding: 0;
   
         .menu-item {
-          display: inline;
           align-self: center;
+          a {
+            text-decoration: none;
+            color: $light-blue-grey
+          }
+          a:hover {
+            color: $orange;
+            border-bottom: 1px solid $orange;
+            padding-bottom: 5px;
+          }
+          a > [data-icon]:before {
+            display: inline-block;
+            content: attr(data-icon);
+          }
         }
 
         .menu-item:hover {
@@ -67,10 +78,6 @@
         }
       }
     }
-
-    /* .box-shadow-menu {
-      display: none;
-    } */
   }
   
 }
