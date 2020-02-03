@@ -18,8 +18,12 @@ const FirstSectionHeader = () => (
 
 const headerList = () => (
   <ul className='menu-list'>
-    {Utils.getSections().map(section => (
-      <li className='menu-item'>{section}</li>
+    {Utils.getSections().map((section, index) => (
+      <li className='menu-item' key={index}>
+        <a href={`#${section}`}>
+          {section}
+        </a>
+      </li>
     ))}
   </ul>
 )
