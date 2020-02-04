@@ -7,7 +7,6 @@
   &-left {
     display: flex;
     justify-content: center;
-    flex: 2;
     flex-direction: column;
   }
 
@@ -15,7 +14,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    flex: 1;
   }
 
   &-title {
@@ -33,10 +31,8 @@
 
   &-paragraph {
     color: $dark;
-    font-size: 1.3em;
-    font-weight: lighter;
-    margin: 65px 40px 0 0;
-    text-align: left;
+    font-size: x-large;
+    font-weight: 300;
   }
 
   &-image {
