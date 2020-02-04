@@ -1,14 +1,20 @@
 @import "../../assets/scss/variables";
 
 .header-container {
-  background-color: $navy-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $navy-blue;
   box-shadow: 1px 10px 5px #ccc;
   color: $light-blue-grey;
-  padding: 10px 80px;
+  height: 12%;
+  padding: 0px 80px;
 
   .header {
+    background: $navy-blue;
     display: flex;
     justify-content: space-between;
+    margin: 10px 0px;
     width: 100%;
 
     .first-section {
