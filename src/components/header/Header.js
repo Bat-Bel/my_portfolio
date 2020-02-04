@@ -20,7 +20,7 @@ const headerList = () => (
   <ul className='menu-list'>
     {Utils.getSections().map((section, index) => (
       <li className='menu-item' key={index}>
-        <a href={`#${section}`}>
+        <a className='menu-link' href={`#${section}`}>
           {section}
         </a>
       </li>
